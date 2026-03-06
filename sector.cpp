@@ -4,7 +4,7 @@ int main() {
     setlocale(LC_ALL, "RUSSIAN");
     int arr[10]{ 102, 13, 433, 21, 811, 39, 7, 20, 1, 35 };
     int temp{0};
-    std::cout << "Ìàññèâ äî ñîðòèðîâêè: ";
+    std::cout << "ÐœÐ°ÑÑÐ¸Ð² Ð´Ð¾ ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ¸: ";
     for (auto el : arr) std::cout << el << " ";
     for (int i = 1; i < 10; ++i) {
         for (int k = 9; k >= i; --k) {
@@ -15,7 +15,7 @@ int main() {
             }
         }
     }
-    std::cout << "\nÌàññèâ ïîñëå ñîðòèðîâêè: ";
+    std::cout << "\nÐœÐ°ÑÑÐ¸Ð² Ð¿Ð¾ÑÐ»Ðµ ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ¸: ";
     for (auto el : arr) std::cout << el << " ";
     std::cout << "\n";
 }
